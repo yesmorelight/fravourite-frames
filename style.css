@@ -1,0 +1,186 @@
+/*  GENERAL  */
+
+body {
+  background: #f5f5f5;
+}
+
+.container {
+  padding: 0 5rem;
+}
+
+h1 {font-family: 'Josefin Sans', sans-serif;}
+
+h2, h3 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/*  MENU - HEADING */
+.menu-button {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+}
+#m-button {
+  text-align: right;
+  cursor: pointer;
+  float: right;
+}
+
+.head {
+  text-align: center;
+  border-bottom: 1px dotted grey;
+}
+
+.menu {
+  height: 6em;
+  border: 1px solid transparent;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0!important;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0 2rem;
+}
+
+
+/*  FEATURED POST  */
+
+.featured {
+  margin-top: 3rem;
+  border-bottom: 1px dotted grey;
+}
+
+.featured img {
+  width: 100%;
+}
+
+.featured h2 {
+  margin: 1rem 0 0 0;
+}
+.featured p {
+  margin-top: 0;
+}
+
+.about-p p {
+  margin-bottom: 3rem;
+}
+
+#insta img {
+  width: 2rem;
+  height: 2rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+/*  ARCHIVE  */
+
+.archive {
+  margin: 3rem 0;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.prev-post {
+  display: inline-block;
+  vertical-align: top;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.prev-post img {
+  width: 100%;
+}
+
+.prev-post h3 {
+  margin: 0;
+}
+
+.prev-post p {
+  margin: 0;
+}
+
+.prev-post:hover {
+  opacity: 1;
+}
+
+
+
+.more-button {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+#mo-button {
+  color: white;
+  background-color: #dd9292;
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #dd9292;
+  font-family: 'Raleway', sans-serif;
+}
+
+#mo-button:hover {
+  background-color: #F5F5F5;
+  color: #8A3333;
+  border: 1px solid #8A3333;
+}
+
+/*  PAST POSTS  */
+.posts {
+  margin-top: 3rem;
+}
+
+.posts h2 {
+  margin-bottom: 0;
+}
+
+.pp {
+  margin-bottom: 2rem;
+  opacity: 1;
+}
+/*  MEDIA QUERIES  */
+
+@media only screen and (max-width: 750px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .prev-post p {
+    display: none;
+  }
+  li {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  ul {
+    border-bottom: 1px dotted grey;
+  }
+  .menu {
+    height: 7rem;
+  }
+  
+  .m-post {
+    height: 9.2rem;
+  }
+}
