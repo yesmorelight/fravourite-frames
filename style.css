@@ -58,8 +58,12 @@ a {
   color: black;
   text-decoration: none;
   padding: 0 2rem;
+  opacity: 0.8;
 }
 
+.m-link:hover {
+  opacity: 1;
+}
 
 /*  FEATURED POST  */
 
