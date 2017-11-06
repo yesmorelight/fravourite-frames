@@ -130,7 +130,6 @@ a {
   margin: 5rem auto;
   text-align: center;
 }
-
 #mo-button {
   color: white;
   background-color: #dd9292;
@@ -139,6 +138,7 @@ a {
   border-radius: 5px;
   border: 1px solid #dd9292;
   font-family: 'Raleway', sans-serif;
+  transition: background-color 2s, color 2s, border 2s;
 }
 
 #mo-button:hover {
