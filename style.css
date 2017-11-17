@@ -170,6 +170,10 @@ a {
   .container {
     padding: 0 1rem;
   }
+  
+  .prev-post {
+    display: block;
+  }
   .prev-post p {
     display: none;
   }
